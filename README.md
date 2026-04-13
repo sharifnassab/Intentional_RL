@@ -1,18 +1,10 @@
 # Intentional Updates for Streaming Reinforcement Learning
 
-Small PyTorch codebase for the intentional streaming DRL algorithms 
-
-The repository has three runnable training scripts:
+This is the official implementation of the algorithms in [Intentional Updates for Streaming Reinforcement Learning](). Specifically, we provide implementations for the following algorithms:
 
 - `intentional_ac.py`: Intentional-AC for MuJoCo Gym and DM Control Suite
 - `intentional_q_minatar.py`: Intentional-Q for MinAtar
 - `intentional_q_atari.py`: Intentional-Q for Atari
-
-Shared utilities:
-
-- `optimizer.py`: custom optimizer
-- `normalization_wrappers.py`: observation and reward normalization
-- `sparse_init.py`: sparse parameter initialization
 
 ## Setup
 
@@ -33,7 +25,7 @@ source .venv/bin/activate
 pip install torch numpy gymnasium stable-baselines3
 ```
 
-## Run
+## How to Use
 
 Continuous control (MuJoCo Gym and DMC):
 
